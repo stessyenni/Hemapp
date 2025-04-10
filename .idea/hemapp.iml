@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.13 (hemapp)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/1line-aa" level="application" />
+    <orderEntry type="library" name="@types/3box" level="application" />
+    <orderEntry type="library" name="@types/7zip-min" level="application" />
+    <orderEntry type="library" name="@types/bootstrap" level="application" />
+    <orderEntry type="library" name="@types/calendar" level="application" />
+    <orderEntry type="library" name="@types/css" level="application" />
+    <orderEntry type="library" name="@types/amp" level="application" />
+    <orderEntry type="library" name="@types/datejs" level="application" />
+    <orderEntry type="library" name="@types/checksum" level="application" />
+    <orderEntry type="library" name="@types/eslint" level="application" />
+    <orderEntry type="library" name="@types/eslint-config-prettier" level="application" />
+  </component>
+</module>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{hemapp/node_modules}" />
+    <file url="PROJECT" libraries="{@types/1line-aa, @types/3box, @types/7zip-min, @types/amp, @types/bootstrap, @types/calendar, @types/checksum, @types/css, @types/datejs, @types/eslint, @types/eslint-config-prettier, hemapp/node_modules}" />
+    <includedPredefinedLibrary name="HTTP Pre-Request and Response Handler" />
+  </component>
+</project>
