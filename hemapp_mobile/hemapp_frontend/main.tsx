@@ -1,6 +1,16 @@
 import { createRoot } from 'react-dom/client'
-// @ts-ignore
-import App from './app.tsx'
+import App from './App.tsx'
 import './index.css'
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Get the root element safely
+const rootElement = document.getElementById("root");
+
+// Ensure the element exists before rendering
+if (rootElement) {
+  // Use a deferred rendering to reduce initial memory pressure
+  setTimeout(() => {
+    createRoot(rootElement).render(<App />);
+  }, 0);
+} else {
+  console.error("Root element not found. Cannot mount React application.");
+}
